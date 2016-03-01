@@ -15,7 +15,7 @@
   "version": {
     "Major": "0",
     "Minor": "1",
-    "Patch": "8"
+    "Patch": "9"
   },
   "minimumAgentVersion": "1.83.0",
   "instanceNameFormat": "BundleTask $(message)",
@@ -27,6 +27,14 @@
       "defaultValue": "",
       "required": false,
       "helpMarkDown": "Install the gems in the bundle to this path"
+    },
+    {
+      "name": "createBinstubs",
+      "type": "boolean",
+      "label": "Create Binstubs",
+      "defaultValue": "false",
+      "required": false,
+      "helpMarkDown": "Create binstubs"
     }
   ],
   "execution": {
