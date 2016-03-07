@@ -1,6 +1,6 @@
 {
   "id": "267a74c0-d716-11e5-822e-c96736e6027d",
-  "name": "BundleTask",
+  "name": "bundleinstalltask",
   "friendlyName": "Bundler",
   "description": "Run bundle install",
   "author": "James Carscadden",
@@ -14,11 +14,11 @@
   ],
   "version": {
     "Major": "0",
-    "Minor": "1",
-    "Patch": "9"
+    "Minor": "2",
+    "Patch": "0"
   },
   "minimumAgentVersion": "1.83.0",
-  "instanceNameFormat": "BundleTask $(message)",
+  "instanceNameFormat": "Bundle Install",
   "inputs": [
     {
       "name": "path",
