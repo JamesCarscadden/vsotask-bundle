@@ -1,11 +1,11 @@
 {
   "id": "267a74c0-d716-11e5-822e-c96736e6027d",
   "name": "bundleinstalltask",
-  "friendlyName": "Bundler",
+  "friendlyName": "Bundle Install",
   "description": "Run bundle install",
   "author": "James Carscadden",
   "helpMarkDown": "This task will run 'bundle install' in the top level directory of your code checkout",
-  "category": "Package",
+  "category": "Utility",
   "visibility": [
     "Build"
   ],
@@ -15,7 +15,7 @@
   "version": {
     "Major": "0",
     "Minor": "2",
-    "Patch": "0"
+    "Patch": "1"
   },
   "minimumAgentVersion": "1.83.0",
   "instanceNameFormat": "Bundle Install",
